@@ -1,23 +1,3 @@
-/*public class GenericMath<T extends MathOperations<T>> {
-
-    public T add(T first, T second){
-        return first.plus(second);
-    }
-
-    public T subtract(T first, T second){
-        return first.minus(second);
-    }
-
-    public T multiply(T first, T second){
-        return first.mult(second);
-    }
-
-    public T divide(T first, T second){
-        return first.div(second);
-    }
-
-}*/
-
 interface MathOperations<T> {
     T plus(T other);
     T minus(T other);
